@@ -1,0 +1,21 @@
+@import "theme";
+
+// TODO: 14. fix the deprecation
+
+a {
+  @include link();
+  padding-top: $unit;
+  padding-bottom: $unit;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  &:hover {
+    background: $brand-bg;
+    color:black;
+    transition: 0.3s;
+  }
+}
+div{
+  height: 100%;
+  background: #006AC3;
+}

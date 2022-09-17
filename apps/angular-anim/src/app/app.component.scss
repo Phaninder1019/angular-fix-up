@@ -1,0 +1,20 @@
+// TODO: 5. Fixing one thing may break other things, but sometimes it has to be done
+body{
+    margin: 0;
+    padding: 0;
+  }
+main {
+  // try to keep these
+  display: grid;
+  grid-template-rows: 40px 1fr 40px;
+  min-height: 100vh;
+}
+
+section{
+  display: flex;
+  background-color:lightblue
+}
+.left-container {
+  padding:0.7rem;
+ 
+}
